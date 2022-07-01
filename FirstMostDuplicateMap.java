@@ -23,7 +23,7 @@ public class FirstMostDuplicateMap {
 		for (Map.Entry<Character,Integer> eachEntry: map.entrySet()) 
 			if(eachEntry.getValue() == maxi){
 				System.out.println("first most duplicate is " + eachEntry.getKey());
-				break; // get 'a' as first most duplicate , should not be b?
+				break; // I am getting 'a' as first most duplicate , should not be b?????????
 			}
 	}
 }
